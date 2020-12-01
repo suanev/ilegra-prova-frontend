@@ -26,3 +26,6 @@ E rode o seguinte comando:
 
 Para acessar a aplicação web: 
 - Acesse ```http://localhost:3000/``` do seu navegador
+
+### Preview
+![Preview](https://media0.giphy.com/media/BflfAkyL7KQy82HHnc/giphy.gif)
