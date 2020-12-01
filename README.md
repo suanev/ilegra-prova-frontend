@@ -13,7 +13,7 @@ Requisitos mínimos:
 Diferenciais:
 - Testes e2e.
 - Deploy da aplicação.
-- BFF (REST ou GraphQL).
+- BFF GraphQL.
 - Animações.
 - Acessibilidade.
 
