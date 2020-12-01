@@ -1,0 +1,73 @@
+{
+  "name": "prova-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.2.7",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "babel-loader": "^8.1.0",
+    "graphql": "^15.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-test-renderer": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "cypress": "cypress run",
+    "cypress:chrome": "cypress run -b chrome",
+    "cypress:open": "cypress open",
+    "build": "webpack --config webpack.config.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^4.3.0",
+    "cypress": "^5.6.0",
+    "eslint": "^7.13.0",
+    "jest": "^26.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "file-loader": "^6.1.1",
+    "prettier": "^2.2.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "node_modules",
+      "cypress"
+    ]
+  }
+}

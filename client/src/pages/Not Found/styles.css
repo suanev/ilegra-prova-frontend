@@ -1,0 +1,46 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+}
+
+h1,
+h2,
+p {
+  color: var(--white);
+}
+
+h1 {
+  font-size: 200px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 25px;
+  color: var(--gold);
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.back-link__container {
+  margin: 60px auto;
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  border: 1px solid var(--gold);
+  padding: 20px 40px;
+  border-radius: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--gold);
+  transition: all 0.3s;
+}
+
+p {
+  margin: 0 20px;
+  color: var(--gold);
+}
+
+p:hover {
+  opacity: 80%;
+}

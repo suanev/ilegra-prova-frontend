@@ -1,0 +1,135 @@
+.newsletter {
+  margin: auto;
+  display: flex;
+  padding: 50px 0;
+  margin-top: 80px;;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: var(--dark-gray);
+}
+
+.newsletter__container {
+  margin: auto;
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.newsletter__title {
+  color: var(--gold);
+  font-weight: bold;
+}
+
+.newsletter__information {
+  min-width: 250px;
+}
+
+.line {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.newsletter__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--gold);
+  text-align: center;
+  max-width: 80%;
+  max-width: 300px;
+}
+
+.newsletter__text {
+  margin: 15px auto;
+  font-size: 12px;
+  color: var(--gray);
+  font-style: italic;
+  text-align: center;
+  max-width: 80%;
+  max-width: 300px;
+}
+
+.form__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input {
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 0;
+  width: 180px;
+  height: 45px;
+  background: transparent;
+  border-bottom: 1.5px solid rgb(220, 220, 230);
+  padding: 0 24px;
+  transition: all 0.3s;
+  color: var(--gray);
+  font-size: 16px;
+}
+
+input::placeholder {
+  text-align: left;
+  color: var(--gray);
+}
+
+.form__content .validate-success {
+  border-bottom: 1px solid rgb(154, 204, 0);
+}
+
+.form__content .validate-error {
+  border-bottom: 1px solid rgb(241, 48, 48);
+}
+
+.btn {
+  font-weight: 600;
+  padding: 15px 50px;
+  color: var(--white);
+  text-transform: uppercase;
+  background: transparent;
+  border: 1.5px solid var(--white);
+}
+
+.btn:hover {
+  background: var(--gold);
+  border: 1.5px solid var(--gold);
+}
+
+@media (max-width: 960px) {
+  .newsletter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form__content {
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  input::placeholder {
+    text-align: center;
+  }
+
+  .newsletter__container {
+    width: auto;
+    flex-direction: column;
+  }
+
+  button {
+    margin-left: 0;
+    margin-right: 0;
+    align-self: center;
+  }
+
+  .btn__container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
